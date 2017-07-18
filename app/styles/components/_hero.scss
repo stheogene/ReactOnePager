@@ -7,17 +7,14 @@
 
 .orbit {
     position: relative;
+    height: 85%;
 }
 
-.orbit,
+.orbit-wrapper,
 .orbit-container,
 .orbit-slide,
 .orbit-figure {
     height: 100%;
-}
-
-.orbit-wrapper {
-    height: 85%;
 }
 
 .orbit-bullets {

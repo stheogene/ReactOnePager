@@ -1,0 +1,15 @@
+// _grid.scss
+
+.grid-block {
+    width: 30%;
+    float: left;
+    margin: 0 0 40px 0;
+    border: 1px solid #d7d7d7;
+}
+
+.custom-grid #block-1,
+.custom-grid #block-4,
+.custom-grid #block-2,
+.custom-grid #block-5 {
+    margin-right: 5%;
+}

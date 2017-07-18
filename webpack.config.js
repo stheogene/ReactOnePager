@@ -26,6 +26,7 @@ module.exports = {
             Main: 'app/components/Main.jsx',
             Nav: 'app/components/Nav.jsx',
             Hero: 'app/components/Hero.jsx',
+            Grid: 'app/components/Grid.jsx',
             applicationStyles: 'app/styles/app.scss'
         },
         extensions: ['','.js', '.jsx']
