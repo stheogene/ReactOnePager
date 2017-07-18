@@ -18,6 +18,9 @@ h1 {
 
 h2 {
     font-size: $font-h2;
+    font-family: $font-headers;
+    letter-spacing: -4px;
+    line-height: 1.1;
 }
 
 h3 {
@@ -29,14 +32,14 @@ p.lead {
 }
 
 .sub-text {
-    color: $font-color-secondary;
+    color: $lightgray;
     text-transform: uppercase;
 }
 
 a:link,
 a:visited,
 a:active {
-    color: $font-color-secondary;
+    color: $lightgray;
 }
 
 a:hover {

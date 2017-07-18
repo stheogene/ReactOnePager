@@ -21,7 +21,9 @@ var Hero = (props) => {
                         <li className="is-active orbit-slide">
                             <figure className="orbit-figure">
                                 <img src={require('../images/alt-bg.jpg')} className="orbit-image"/>
-                                <figcaption className="orbit-caption">Space, the final frontier.</figcaption>
+                                <div className="row">
+                                    <figcaption className="orbit-caption">Screening: DVF Secret Agent Part 2</figcaption>
+                                </div>
                             </figure>
                         </li>
                     </ul>
