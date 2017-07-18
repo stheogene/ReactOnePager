@@ -6,17 +6,31 @@
 }
 
 .orbit {
-    height: 100%;
     position: relative;
+}
+
+.orbit,
+.orbit-container,
+.orbit-slide,
+.orbit-figure {
+    height: 100%;
 }
 
 .orbit-wrapper {
     height: 85%;
-    overflow: hidden;
 }
 
 .orbit-bullets {
     height: 15%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1rem;
+}
+
+.orbit-bullets button {
+    width: .7rem;
+    height: .7rem;
+    margin: .7rem;
 }
 
 .orbit-figure {
