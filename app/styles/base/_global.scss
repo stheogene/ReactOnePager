@@ -45,3 +45,16 @@ a:active {
 a:hover {
     text-decoration: underline;
 }
+
+.fake-table {
+    display: table;
+    width: 100%;
+}
+
+.fake-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+

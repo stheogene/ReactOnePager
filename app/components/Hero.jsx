@@ -22,7 +22,7 @@ var Hero = (props) => {
                             <figure className="orbit-figure">
                                 <img src={require('../images/alt-bg.jpg')} className="orbit-image"/>
                                 <div className="row">
-                                    <figcaption className="orbit-caption">Screening: DVF Secret Agent Part 2</figcaption>
+                                    
                                 </div>
                             </figure>
                         </li>
