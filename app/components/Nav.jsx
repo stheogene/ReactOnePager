@@ -20,8 +20,8 @@ var Nav = React.createClass({
                             <li className="sub-text">
                                <Link to="/login">Login</Link>
                             </li>
-                            <li>
-                               
+                            <li className="toggle-topbar menu-icon">
+                                <a href="#"></a>
                             </li>
                         </ul>
                     </div>

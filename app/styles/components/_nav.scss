@@ -23,3 +23,13 @@
     color: $font-color-secondary;
     margin-left: 20px;
 }
+
+.menu-icon {
+    top:-2px;
+}
+
+.menu-icon:after {
+    background-color: #666;
+    color: #666;
+    box-shadow: 0 7px 0 #666, 0 14px 0 #666;
+}
