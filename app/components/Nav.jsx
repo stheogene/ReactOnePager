@@ -10,7 +10,7 @@ var Nav = React.createClass({
                     <div className="top-bar-left">
                        <ul className="menu">
                            <li className="menu-text">
-                               <img src="/images/logo.png"/>
+                               <img src={require('../images/logo.png')} className="nav-logo"/>
                            </li>
                        </ul>
                     </div>

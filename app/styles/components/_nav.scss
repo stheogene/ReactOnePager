@@ -1,0 +1,25 @@
+// _nav.scss
+
+.top-bar {
+    height: 120px;
+}
+
+.top-bar,
+.top-bar ul {
+    background-color: $main-background-color;
+}
+
+.top-bar-left {
+    margin-top: 25px;
+}
+
+.top-bar-right ul {
+    margin-top: 34px;
+}
+
+.top-bar-right ul li {
+    display: inline-block;
+    font-family: $font-secondary;
+    color: $font-color-secondary;
+    margin-left: 20px;
+}

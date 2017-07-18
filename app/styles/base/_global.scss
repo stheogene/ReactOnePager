@@ -1,0 +1,44 @@
+// _global.scss
+
+body {
+    font-size: $font-standard;
+}
+
+.row {
+    max-width: 1162px;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1 {
+    font-size: $font-h1;
+}
+
+h2 {
+    font-size: $font-h2;
+}
+
+h3 {
+    font-size: $font-h3;
+}
+
+p.lead {
+    font-size: $font-lead;
+}
+
+.sub-text {
+    color: $font-color-secondary;
+    text-transform: uppercase;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: $font-color-secondary;
+}
+
+a:hover {
+    text-decoration: underline;
+}

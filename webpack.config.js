@@ -39,6 +39,14 @@ module.exports = {
                 },
                 test: /\.jsx?$/,
                 exclude: /(node_modules|bower_components)/
+            },
+            {
+                test: /\.(png|jpg|jpeg|gif|woff|otf)$/,
+                loader: 'url-loader'
+            },
+            {
+                test: /\.(eot|svg|ttf|woff|woff2|otf)$/,
+                loader: 'file?name=fonts/[name].[ext]'
             }
         ]
     },

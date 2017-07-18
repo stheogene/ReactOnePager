@@ -12,12 +12,12 @@ var React = require('react');
 var Hero = (props) => {
     return (
         <div className="hero-wrapper">
-            <div className="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+            <div className="orbit" role="region" aria-label="High Fashion" data-orbit>
                 <div className="orbit-wrapper">
                     <ul className="orbit-container custom-slides">
                         <li className="is-active orbit-slide">
                             <figure className="orbit-figure">
-                                <img className="orbit-image" src="images/alt-bg.jpg" alt="Runway"/>
+                                <img src={require('../images/alt-bg.jpg')} className="orbit-image"/>
                                 <figcaption className="orbit-caption">Space, the final frontier.</figcaption>
                             </figure>
                         </li>
