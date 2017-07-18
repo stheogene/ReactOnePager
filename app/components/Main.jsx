@@ -3,6 +3,7 @@ var React = require('react');
 
 // Load children components
 var Nav = require('Nav');
+var Hero = require('Hero');
 
 // Set variables for components 
 //var Main = React.createClass({
@@ -22,10 +23,9 @@ var Main = (props) => {
     return (
         <div>
             <Nav></Nav>
-            <div className="row">
-                <div className="columns">
-                    {props.children}
-                </div>
+            <Hero></Hero>
+            <div>       
+                {props.children}
             </div>
         </div>
     );

@@ -2,4 +2,87 @@
 
 /* ---- VARIABLES ---- */
 
+$main-background-color: #fff;
+$font-color-secondary: #767676;
+$font-standard: 12px;
+$font-h1: 4rem;
+$font-h2: 3rem;
+$font-h3: 2.5rem;
+$font-lead: 1.5rem;
+
+
 /* ---- GLOBAL ---- */
+
+body {
+    font-size: $font-standard;
+}
+
+.row {
+    max-width: 1162px;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1 {
+    font-size: $font-h1;
+}
+
+h2 {
+    font-size: $font-h2;
+}
+
+h3 {
+    font-size: $font-h3;
+}
+
+p.lead {
+    font-size: $font-lead;
+}
+
+.sub-text {
+    color: $font-color-secondary;
+    text-transform: uppercase;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: $font-color-secondary;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ==== NAVIGATION ==== */
+
+.top-bar {
+    height: 120px;
+}
+
+.top-bar,
+.top-bar ul {
+    background-color: $main-background-color;
+}
+
+.top-bar-left {
+    margin-top: 25px;
+}
+
+.top-bar-right ul {
+    margin-top: 32px;
+}
+
+.top-bar-right ul li {
+    display: inline-block;
+    font-family: 'Arial', Helvetica, sans-serif;
+    color: $font-color-secondary;
+    margin-left: 20px;
+}
+
+
+/* ==== HERO PARTIAL ==== */
+
+@import 'hero';

@@ -25,6 +25,7 @@ module.exports = {
             // Add paths to components specific to app
             Main: 'app/components/Main.jsx',
             Nav: 'app/components/Nav.jsx',
+            Hero: 'app/components/Hero.jsx',
             applicationStyles: 'app/styles/app.scss'
         },
         extensions: ['','.js', '.jsx']

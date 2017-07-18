@@ -6,33 +6,25 @@ var Nav = React.createClass({
     render: function () {
         return (
             <div className="top-bar">
-                <div className="top-bar-left">
-                   <ul className="menu">
-                       <li className="menu-text">
-                           React Weather App
-                       </li>
-                       <li>
-                           <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
-                       </li>
-                       <li>
-                           <Link to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</Link>
-                       </li>
-                       <li>
-                           <Link to="/examples" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Examples</Link>
-                       </li>
-                   </ul>
-                </div>
-                <div className="top-bar-right">
-                    <form onSubmit={this.onSearch}>
-                        <ul className="menu">
-                            <li>
-                                <input type="search" placeholder="Search weather by city"/>
+                <div className="row">
+                    <div className="top-bar-left">
+                       <ul className="menu">
+                           <li className="menu-text">
+                               <img src="/images/logo.png"/>
+                           </li>
+                       </ul>
+                    </div>
+                    <div className="top-bar-right">
+                        <ul className="menu-text">
+                            <li className="sub-text">212.555.5555</li>
+                            <li className="sub-text">
+                               <Link to="/login">Login</Link>
                             </li>
                             <li>
-                                <input type="submit" className="button" value="Get Weather"/>
+                               
                             </li>
                         </ul>
-                    </form>
+                    </div>
                 </div>
             </div>
         );

@@ -1,0 +1,30 @@
+/* ==== _hero.scss ==== */
+
+.hero-wrapper {
+    height: calc(100vh - 120px);
+    position: relative;
+}
+
+.orbit {
+    height: 100%;
+    position: relative;
+}
+
+.orbit-wrapper {
+    height: 85%;
+    overflow: hidden;
+}
+
+.orbit-bullets {
+    height: 15%;
+}
+
+.orbit-figure {
+    text-align: center;
+}
+
+.orbit-image {
+    max-width: 1400px;
+    width: 100%;
+    height: auto;
+}
