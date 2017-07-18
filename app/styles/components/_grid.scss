@@ -1,10 +1,15 @@
 // _grid.scss
 
+.custom-grid {
+    margin-top: 4%;
+}
+
 .grid-block {
     width: 30%;
     float: left;
     margin: 0 0 40px 0;
-    /* border: 1px solid #d7d7d7; */
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 3em;
 }
 
 .custom-grid #block-1,
@@ -21,7 +26,7 @@
 }
 
 .custom-grid #block-6 {
-    margin-top: -18%;
+    margin-top: -22.5%;
 }
 
 .custom-grid #block-4 {
@@ -39,12 +44,19 @@
     margin-bottom: 0.8em;
 }
 
+.custom-grid h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 .grid-sponsor {
     color: $darkgray;
 }
 
 .grid-date {
     text-transform: uppercase;
+    font-family: $font-secondary;
 }
 
 .grid-block strong {

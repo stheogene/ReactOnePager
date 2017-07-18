@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.your-class').slick({
-    setting-name: setting-value
+  $('.hero-slider').slick({
+    autoplay: true
   });
 });

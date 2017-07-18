@@ -27,6 +27,7 @@ module.exports = {
             Nav: 'app/components/Nav.jsx',
             Hero: 'app/components/Hero.jsx',
             Grid: 'app/components/Grid.jsx',
+            Footer: 'app/components/Footer.jsx',
             applicationStyles: 'app/styles/app.scss'
         },
         extensions: ['','.js', '.jsx']
@@ -40,6 +41,10 @@ module.exports = {
                 },
                 test: /\.jsx?$/,
                 exclude: /(node_modules|bower_components)/
+            },
+            {
+                test: /\.js$/,
+                loader: "imports-loader?this=>window"
             },
             {
                 test: /\.css$/,

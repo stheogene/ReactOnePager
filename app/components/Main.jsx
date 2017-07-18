@@ -5,6 +5,7 @@ var React = require('react');
 var Nav = require('Nav');
 var Hero = require('Hero');
 var Grid = require('Grid');
+var Footer = require('Footer');
 
 // Set variables for components 
 //var Main = React.createClass({
@@ -29,6 +30,7 @@ var Main = (props) => {
             <div>       
                 {props.children}
             </div>
+            <Footer></Footer>
         </div>
     );
 };
