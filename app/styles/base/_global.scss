@@ -3,6 +3,8 @@
 body {
     font-size: $font-standard;
     font-family: $font-springville;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 
 .row {
@@ -15,11 +17,11 @@ ul li {
 
 h1 {
     font-size: $font-h1;
+    color: #fff;
 }
 
 h2 {
     font-size: $font-h2;
-    font-family: $font-springville;
     letter-spacing: -2px;
     line-height: 1.1;
 }
@@ -28,8 +30,13 @@ h3 {
     font-size: $font-h3;
 }
 
+h1, h2, h3, p.lead {
+    font-family: $font-springville;
+}
+
 p.lead {
     font-size: $font-lead;
+    letter-spacing: 0.5px;
 }
 
 .sub-text {

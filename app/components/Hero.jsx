@@ -10,12 +10,21 @@ var Hero = (props) => {
                 <div className="orbit-wrapper">
                     <ul className="orbit-container custom-slides">
                         <li className="is-active orbit-slide">
-                            <figure className="orbit-figure">
+                            <div className="orbit-figure">
                                 <img src={require('../images/alt-bg.jpg')} className="orbit-image"/>
                                 <div className="row">
-                                    
+                                    <div className="slider-overlay"></div>
                                 </div>
-                            </figure>
+                                <div className="row">  
+                                    <div className="row-absolute">  
+                                        <div className="hero-text">
+                                            <h1>Screening:<br/>DVR Secret Agent Part 2</h1>
+                                            <h3>October 15, 2017</h3>
+                                            <p className="lead">Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.</p>
+                                        </div>
+                                    </div> 
+                                </div>     
+                            </div>
                         </li>
                     </ul>
                 </div>
