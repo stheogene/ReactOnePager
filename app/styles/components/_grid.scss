@@ -44,13 +44,19 @@
     margin-bottom: 0.8em;
 }
 
-.custom-grid h2:hover {
-    text-decoration: underline;
+.custom-grid h2 a {
+    color: #0a0a0a;
+}
+
+.custom-grid h2 a:hover {
+    border-bottom: 2px solid #333;
     cursor: pointer;
+    text-decoration: none;
 }
 
 
 .grid-sponsor {
+    font-family: $font-acaslon;
     color: $darkgray;
 }
 

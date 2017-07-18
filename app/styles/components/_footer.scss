@@ -1,0 +1,38 @@
+// _footer.scss
+
+.footer-nav {
+    padding: 4em 0;
+    text-align: center;
+}
+
+.footer-nav li {
+    display: inline-block;
+    font-family: $font-secondary;
+    color: $blackstandard;
+    font-weight: 600;
+}
+
+.footer-copy {
+    margin-right: 2em;
+}
+
+.footer-social:after {
+    content: '\2010';
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.footer-social:last-of-type:after {
+    content: '';
+}
+
+.footer-social a {
+    color: inherit;
+}
+
+.footer-social a:hover {
+    border-bottom: 1px solid #333;
+    margin-bottom: 1em;
+    cursor: pointer;
+    text-decoration: none;
+}
