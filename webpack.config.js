@@ -42,7 +42,12 @@ module.exports = {
                 exclude: /(node_modules|bower_components)/
             },
             {
-                test: /\.(png|jpg|jpeg|gif|woff|otf)$/,
+                test: /\.css$/,
+                exclude: /node_modules/,
+                loader: 'style-loader!css-loader'
+            },
+            {
+                test: /\.(png|jpg|jpeg|gif|woff|otf|ttf|eot)$/,
                 loader: 'url-loader'
             },
             {
