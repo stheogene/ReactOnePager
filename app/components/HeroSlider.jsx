@@ -9,12 +9,54 @@ const HeroSlider = React.createClass({
   render() {
     return (
       <Carousel>
-        <img src={require('../images/alt-bg.jpg')} className="slider-image large-bg"/>
-        <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide2"/>
-        <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide3"/>
-        <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide4"/>
-        <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide5"/>
-        <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide6"/>
+        <div className="hero-slider">
+            <img src={require('../images/slider-1.jpg')} className="hero-slider-image large-bg"/>
+            <img src={require('../images/slider-1-sm.jpg')} className="hero-slider-image small-bg"/>
+            <div className="row">
+                <div className="hero-slider-overlay"></div>
+            </div>
+            <div className="row">  
+                <div className="row-absolute">  
+                    <div className="hero-text">
+                        <h1>Screening:<br/>DVR Secret Agent Part 2</h1>
+                        <h3>October 15, 2017</h3>
+                        <p className="lead">Join us for a private screening of DVF Secret Agent Part 2 with our special guest, director Peter Lindberg.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div className="hero-slider">
+            <img src={require('../images/slider-2.jpg')} className="hero-slider-image large-bg"/>
+            <img src={require('../images/slider-2-sm.jpg')} className="hero-slider-image small-bg"/>
+            <div className="row">
+                <div className="hero-slider-overlay"></div>
+            </div>
+            <div className="row">  
+                <div className="row-absolute">  
+                    <div className="hero-text">
+                        <h1>Screening:<br/>Milan Fashion Show</h1>
+                        <h3>November 2, 2017</h3>
+                        <p className="lead">Dreamcatcher tilde gastropub thundercats. Cray intelligentsia kombucha, taiyaki selfies.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div className="hero-slider">
+            <img src={require('../images/slider-3.jpg')} className="hero-slider-image large-bg"/>
+            <img src={require('../images/slider-3-sm.jpg')} className="hero-slider-image small-bg"/>
+            <div className="row">
+                <div className="hero-slider-overlay"></div>
+            </div>
+            <div className="row">  
+                <div className="row-absolute">  
+                    <div className="hero-text">
+                        <h1>Screening:<br/>Dior Spring Line</h1>
+                        <h3>October 15, 2017</h3>
+                        <p className="lead">Retro deep v fixie etsy artisan YOLO fashion axe pabst brunch. Butcher craft beer jianbing.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
       </Carousel>
     )
   }

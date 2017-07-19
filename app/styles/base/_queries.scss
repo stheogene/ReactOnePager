@@ -36,8 +36,8 @@
 
 @media screen and ( max-width : 768px ) {
     .queries-wrapper {
-        .hero-wrapper {
-            height: auto;
+        .slider {
+            height: auto !important;
         }
     
         .orbit-slide .orbit-figure {
@@ -114,8 +114,8 @@
             padding: 0;
         }
         
-        .hero-wrapper {
-            margin-top: 50px;
+        .slider {
+            margin-top: 50px !important;
         }
         
         .slider-overlay {
@@ -126,7 +126,7 @@
             display: none;
         }
         
-        .orbit-image.small-bg {
+        .hero-slider-image.small-bg {
             display: block;
             max-width: 100%;
         }
@@ -146,11 +146,6 @@
         
         p.lead {
             font-size: 1rem;
-        }
-        
-        .orbit-bullets button {
-            width: .5rem;
-            height: .5rem;
         }
         
         .grid-block {
@@ -240,11 +235,7 @@
         p.lead {
             font-size: 0.8rem;
         }
-        
-        .orbit-bullets {
-            padding-top: .2em;
-        }
-        
+
         .custom-grid {
             margin-top: 4%;
             padding: 0 4%;
