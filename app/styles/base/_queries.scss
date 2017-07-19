@@ -198,13 +198,90 @@
 /* ---- iPhone 6 ---- */
 
 @media screen and ( max-width : 375px ) {
-   
-    
+    .queries-wrapper {
+        .hero-text {
+            top: 55%;
+        }
+        
+        .grid-thumb {
+            height: 160px;
+        }
+    }
 }
 
 /* ---- iPhone 5 ---- */
 
 @media screen and ( max-width : 320px ) {
-    
+    .queries-wrapper {
+        .top-bar-left .menu-text {
+            margin-top: 5px;
+        }
+        
+        .top-bar-left .menu-text {
+            width: 200px;
+        }
+        
+        .top-bar-right .sub-text {
+            display: none;
+        }
+        
+        .row-absolute .hero-text {
+            padding: 0 2em;
+        }
+        
+        h1 {
+            font-size: 1.6rem;
+        }
+        
+        h3 {
+            font-size: 1.1rem;
+        }
+        
+        p.lead {
+            font-size: 0.8rem;
+        }
+        
+        .orbit-bullets {
+            padding-top: .2em;
+        }
+        
+        .custom-grid {
+            margin-top: 4%;
+            padding: 0 4%;
+        }
+        
+        .grid-block {
+            width: 48%;
+        }
+        
+        .custom-grid #block-1,
+        .custom-grid #block-3,
+        .custom-grid #block-5 {
+            margin-right: 2%;
+        }
+        
+        .custom-grid #block-2,
+        .custom-grid #block-4,
+        .custom-grid #block-6 {
+            margin-left: 2%;
+        }
+        
+        .grid-thumb {
+            height: 145px;
+        }
+        
+        h2 {
+            font-size: 1.2rem;
+            height: 65px;
+        }
+        
+        .grid-block strong {
+            font-size: 0.7em;
+        }
+        
+        .footer-nav li {
+            font-size: 0.8em;
+        }
+    }
     
 }
