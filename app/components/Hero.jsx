@@ -11,7 +11,8 @@ var Hero = (props) => {
                     <ul className="orbit-container custom-slides">
                         <li className="is-active orbit-slide">
                             <div className="orbit-figure">
-                                <img src={require('../images/alt-bg.jpg')} className="orbit-image"/>
+                                <img src={require('../images/alt-bg.jpg')} className="orbit-image large-bg"/>
+                                <img src={require('../images/bg-mobile.jpg')} className="orbit-image small-bg"/>
                                 <div className="row">
                                     <div className="slider-overlay"></div>
                                 </div>

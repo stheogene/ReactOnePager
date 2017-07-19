@@ -117,6 +117,41 @@
         .hero-wrapper {
             margin-top: 50px;
         }
+        
+        .slider-overlay {
+            background: rgba(0, 0, 0, 0.5);
+        }
+        
+        .large-bg {
+            display: none;
+        }
+        
+        .orbit-image.small-bg {
+            display: block;
+            max-width: 100%;
+        }
+        
+        .row-absolute .hero-text {
+            width: 100%;
+            padding: 0 4em;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+        }
+        
+        p.lead {
+            font-size: 1rem;
+        }
+        
+        .orbit-bullets button {
+            width: .5rem;
+            height: .5rem;
+        }
     }
 }
 
