@@ -1,6 +1,6 @@
 // _queries.scss
 
-// iPad Pro and under
+/* ----- iPad Pro Landscape ---- */
 
 @media screen and ( max-width : 1366px ) {
     .row-absolute .hero-text {
@@ -11,54 +11,99 @@
 }
 
 
-
-
-// Regular iPad and under
+/* ---- Regular iPad Landscape ---- */
 
 @media screen and ( max-width : 1024px ) {
     .row-absolute .hero-text {
-        width: 65%;
-        padding: 0 5em;
+        width: 75%;
+    }
+    
+    h1 {
+        font-size: 3.8rem;
+    }
+    
+    h3 {
+        font-size: 2.4rem;
+    }
+    
+    p.lead {
+        font-size: 1.5rem;
     }
     
 }
 
-// iPhone 6 Plus landscape and under
+/* ---- Regular iPad Portrait ---- */
 
-@media screen and ( max-width : 767px ) {
-    .row-absolute .hero-text {
-        width: 65%;
-        padding: 0 5em;
-    }
+@media screen and ( max-width : 768px ) {
+    .queries-wrapper {
+        .hero-wrapper {
+            height: auto;
+        }
     
+        .orbit-slide .orbit-figure {
+            height: auto;
+        }
+    
+        .custom-grid {
+            margin-top: 6%;
+            padding: 0 6%;
+        }
+
+        .grid-block {
+            width: 46%;
+        }
+        
+        .custom-grid #block-1,
+        .custom-grid #block-3,
+        .custom-grid #block-5 {
+            margin-right: 4%;
+            margin-left: 0;
+        }
+        
+        .custom-grid #block-2,
+        .custom-grid #block-4,
+        .custom-grid #block-6 {
+            margin-left: 4%;
+            margin-right: 0;
+        }
+        
+        .custom-grid #block-4,
+        .custom-grid #block-6 {
+            margin-top: 0;
+        }
+        
+        .grid-thumb {
+            width: auto;
+            height: 300px;
+            overflow: hidden;
+        }
+        
+        h2 {
+            font-size: 350%;
+            letter-spacing: -1px;
+            height: 140px;
+            overflow: hidden;
+        }
+    }
 }
 
-// iPhone 6 Plus portrait and under
+
+/* ---- iPhone 6 Plus ---- */
 
 @media screen and ( max-width : 414px ) {
-    .row-absolute .hero-text {
-        width: 65%;
-        padding: 0 5em;
-    }
-    
+
 }
 
-// iPhone 6 and under
+/* ---- iPhone 6 ---- */
 
 @media screen and ( max-width : 375px ) {
-    .row-absolute .hero-text {
-        width: 65%;
-        padding: 0 5em;
-    }
+   
     
 }
 
-// iPhone 5 and under
+/* ---- iPhone 5 ---- */
 
 @media screen and ( max-width : 320px ) {
-    .row-absolute .hero-text {
-        width: 65%;
-        padding: 0 5em;
-    }
+    
     
 }
