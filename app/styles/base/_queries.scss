@@ -1,0 +1,64 @@
+// _queries.scss
+
+// iPad Pro and under
+
+@media screen and ( max-width : 1366px ) {
+    .row-absolute .hero-text {
+        width: 65%;
+        padding: 0 5em;
+    }
+    
+}
+
+
+
+
+// Regular iPad and under
+
+@media screen and ( max-width : 1024px ) {
+    .row-absolute .hero-text {
+        width: 65%;
+        padding: 0 5em;
+    }
+    
+}
+
+// iPhone 6 Plus landscape and under
+
+@media screen and ( max-width : 767px ) {
+    .row-absolute .hero-text {
+        width: 65%;
+        padding: 0 5em;
+    }
+    
+}
+
+// iPhone 6 Plus portrait and under
+
+@media screen and ( max-width : 414px ) {
+    .row-absolute .hero-text {
+        width: 65%;
+        padding: 0 5em;
+    }
+    
+}
+
+// iPhone 6 and under
+
+@media screen and ( max-width : 375px ) {
+    .row-absolute .hero-text {
+        width: 65%;
+        padding: 0 5em;
+    }
+    
+}
+
+// iPhone 5 and under
+
+@media screen and ( max-width : 320px ) {
+    .row-absolute .hero-text {
+        width: 65%;
+        padding: 0 5em;
+    }
+    
+}
