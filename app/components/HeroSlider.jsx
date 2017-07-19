@@ -8,7 +8,7 @@ const HeroSlider = React.createClass({
   mixins: [Carousel.ControllerMixin],
   render() {
     return (
-      <Carousel>
+      <Carousel autoplay={true} infinite={true} speed={1000}>
         <div className="hero-slider">
             <img src={require('../images/slider-1.jpg')} className="hero-slider-image large-bg"/>
             <img src={require('../images/slider-1-sm.jpg')} className="hero-slider-image small-bg"/>
