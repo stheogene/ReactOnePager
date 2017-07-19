@@ -53,6 +53,14 @@
     margin-left: auto;
 }
 
+.large-bg {
+    display: block;
+}
+
+.orbit-image.small-bg {
+    display: none;
+}
+
 .orbit-image {
     max-width: 1400px;
     width: auto;

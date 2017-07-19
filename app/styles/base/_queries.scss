@@ -152,6 +152,46 @@
             width: .5rem;
             height: .5rem;
         }
+        
+        .grid-block {
+            width: 47%;
+        }
+        
+        .custom-grid #block-1,
+        .custom-grid #block-3,
+        .custom-grid #block-5 {
+            margin-right: 3%;
+            margin-left: 0;
+        }
+        
+        .custom-grid #block-2,
+        .custom-grid #block-4,
+        .custom-grid #block-6 {
+            margin-left: 3%;
+            margin-right: 0;
+        }
+        
+        .grid-thumb {
+            height: 172px;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            height: 80px;
+        }
+        
+        .grid-block p {
+            font-size: 0.7rem;
+        }
+        
+        .grid-block strong {
+            font-size: 0.9em;
+        }
+        
+        .footer-copy {
+            display: block;
+            margin-bottom: 1em;
+        }
     }
 }
 
