@@ -3,7 +3,7 @@ var React = require('react');
 
 // Load children components
 var Nav = require('Nav');
-var Hero = require('Hero');
+var HeroSlider = require('HeroSlider');
 var Grid = require('Grid');
 var Footer = require('Footer');
 
@@ -25,7 +25,7 @@ var Main = (props) => {
     return (
         <div>
             <Nav></Nav>
-            <Hero></Hero>
+            <HeroSlider></HeroSlider>
             <Grid></Grid>
             <div>       
                 {props.children}
