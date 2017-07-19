@@ -91,7 +91,33 @@
 /* ---- iPhone 6 Plus ---- */
 
 @media screen and ( max-width : 414px ) {
-
+    .queries-wrapper {
+        .top-bar {
+            height: 50px;
+        }
+        
+        .top-bar-left,
+        .top-bar-right {
+            width: auto;
+        }
+        
+        .top-bar-left,
+        .top-bar-right ul {
+            margin-top: 0;
+        }
+        
+        .top-bar-right .menu-number {
+            display: none;
+        }
+        
+        .top-bar-left .menu-text {
+            padding: 0;
+        }
+        
+        .hero-wrapper {
+            margin-top: 50px;
+        }
+    }
 }
 
 /* ---- iPhone 6 ---- */
