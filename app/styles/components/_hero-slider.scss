@@ -2,7 +2,6 @@
 
 .slider {
     margin-top: 120px;
-    height: calc(100vh - 120px) !important;
     background: #fff;
 }
 
@@ -49,7 +48,12 @@ li.slider-slide {
 }
 
 .slider-decorator-2 {
-    bottom: 30px !important;
+    position: relative !important;
+    text-align: center;
+}
+
+.slider-decorator-2 ul {
+    top: 10px !important;
 }
 
 .row-absolute {
